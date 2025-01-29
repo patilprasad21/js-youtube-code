@@ -1,4 +1,4 @@
-"use strict"  // treats as  newwe versions 
+"use strict"  // treats as  newer versions 
 
 // datatypes details
 //number,bigint,string,boolean,null,undefined,symbol, object

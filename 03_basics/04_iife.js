@@ -11,3 +11,9 @@
     //simple IIFE
     console.log(`the comapny emplyee user name - ${username}`)
 })("Prasad");
+
+function add(num1,num2){
+    console.log(this);
+    return num1+num2;
+}
+// console.log(add(1,2))
