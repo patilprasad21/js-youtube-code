@@ -17,4 +17,5 @@ const shoppingCart = [
 
 
 const buyTotalCourse = shoppingCart.reduce( (acc, currval) =>  acc+currval.price , 0)
+console.log(`The TotalPriceToPay is : ${buyTotalCourse}`)
 console.log(buyTotalCourse)
