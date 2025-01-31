@@ -66,3 +66,18 @@ form.addEventListener('submit', function (e) {
 // Home-Work : base on range print this is under Weight or Normal Range or OverWeight
 
 ```
+
+## project 3 solution code
+
+```javascript
+// const clock = document.getElementById('clock')
+const clock = document.querySelector('#clock');
+
+setInterval(function () {
+  let date = new Date();
+  // console.log(date.toLocaleTimeString());
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
+
+
+```
