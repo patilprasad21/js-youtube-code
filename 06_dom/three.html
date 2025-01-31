@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | YouTube</title>
+</head>
+<body style="background-color: #212121; color: white;">
+    
+</body>
+
+<script>
+  const div = document.createElement('div');
+  console.log(div);  
+  div.className = "main";
+  div.id = Math.floor(Math.random() *10 + 1)
+  div.setAttribute("title", "generated title")
+  div.style.backgroundColor = "green"
+  div.style.padding = "12px"
+//   div.innerText = "Iron - Man"
+  const addText = document.createTextNode("Iron - Man : Tony Stark")
+  div.appendChild(addText);
+  
+  document.body.appendChild(div);
+
+</script>
+
+
+</html>
