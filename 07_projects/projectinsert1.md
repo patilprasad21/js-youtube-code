@@ -1,7 +1,7 @@
 # Project related DOM
 
 ## project link
-[click here](https://stackblitz.com/edit/dom-project-chaiaurcode?file=index.html)
+[click here](https://stackblitz.com/edit/dom-project-chaiaurcode-practice?file=4-GuessTheNumber%2Fchaiaurcode.js)
 
 ## project 01 Solution code
 
