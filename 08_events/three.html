@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events | YouTube</title>
+</head>
+<body style="background-color: #212121;color: white;">
+    <h1>Chai Aur Javascript | YouTube</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+
+    document.querySelector('#start').addEventListener('click',function(){
+        const sayDate = function(str){
+            console.log(str, Date.now())
+        }
+        intervalId = setInterval(sayDate,1000,"Hi");                                                                          
+    })
+    document.querySelector('#stop').addEventListener('click',function(){
+        clearInterval(intervalId)
+    })
+        
+
+
+
+
+
+
+
+
+    // const sayPrasad = function(){
+    //     console.log("prasad")
+    // };
+    // const changeText = function(){
+    //     document.querySelector('h1').innerHTML = "Best JS Series";
+    // }
+
+    // const changeMe = setTimeout(changeText,2000)
+
+    // document.querySelector('#stop').addEventListener('click',function(){
+    //     clearTimeout(changeMe)
+    //     console.log("STOPPED");
+    // })
+</script>
+
+</html>
