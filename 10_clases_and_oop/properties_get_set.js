@@ -23,3 +23,4 @@ function User(email, password) {
 
 const tea = new User("Tea@jkyahoo.com", "tea")
 console.log(tea.email);
+console.log(tea.password);

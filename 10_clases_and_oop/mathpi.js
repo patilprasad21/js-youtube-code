@@ -22,7 +22,7 @@ const TV = {
 
 
 Object.defineProperty(TV, "name", {
-    // writable: false,
+    writable: false,
     enumerable: false
 })
 
