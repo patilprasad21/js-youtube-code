@@ -20,3 +20,4 @@ console.table([companyName,employeeName,employeeSalary,companyAddress,companyEnv
 prefer let instead of var ,
 beacause issues in block and functionl scopes
 */
+
